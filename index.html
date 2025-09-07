@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio_AKAKPO JEANETTE</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h2>
+        <span class="name">AKAKPO </span><span class="prenom">JEANETTE</span></h2>
+      <nav class="active">
+        <ul>
+          <li><a href="#home">Accueil</a></li>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#projects">Projet</a></li>
+          <li><a href="#skills">Compétences</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="home">
+      <div class="home-text">
+       <P>Je suis <span class="accent">Jeanette</span>, Développeuse en devenir<br> passionnée par le web et le design !</P>
+       <button>Voir mes projets</button>
+      </div>
+      <div class="home-img">
+       <img src="img/myimg.jpg" alt="illustration d'accueil">
+      </div>
+    </section>
+    <section id="about">
+       <div class="about-text">
+         <h3>À propos</h3>
+         <p>Je m'appelle <span class="accent">Akakpo</span>, passionnée par la<br> création de sites web modernes et intéractifs</p>
+        <p>Je suis actuellement étudiante en <span class="accent">développement web</span>,<br> et je cherche à améliorer mes compétences en JavaScript, HTML et CSS.</p>
+        <p>J'adore transformer mes idées en projets concrets<br> et expérimenter avec les nouvelles technologies.</p>
+        <button>Télécharger mon CV</button>
+      </div>
+      <div class="about-img">
+       <img src="img/mypic.jpg" alt="Ma photo">
+      </div>
+    </section>
+    <section id="projects">
+      <h3>Mes Projets</h3>
+      <div class="p-container">
+        <div class="projects-card">
+        <p>Un mini-jeu interactifs en JavaScript<br>qui utilise des évènements DOM<br></p>
+        <p>#html, #css, #js</p>
+        <button>Voir</button>
+        </div>
+        <div class="projects-card">
+        <p>Un mini-jeu interactifs en JavaScript<br>qui utilise des évènements DOM<br></p>
+        <p>#html, #css, #js</p>
+        <button>Voir</button>
+      </div>
+      <div class="projects-card">
+        <p>Un mini-jeu interactifs en JavaScript<br>qui utilise des évènements DOM<br></p>
+        <p>#html, #css, #js</p>
+        <button>Voir</button>
+      </div>
+      </div>
+    </section>
+    <section id="skills">
+      <h3>Mes compétences</h3>
+      <div class="s-container">
+        <div class="soft">
+          <h4>Soft Skills</h4>
+          <p>Gestion de projets</p>
+           <div class="bar">
+            <div class="level" style="width:80%;"></div>
+           </div>
+         <p>Résolution de problème</p>
+          <div class="bar">
+           <div class="level" style="width:70%;"></div>
+          </div>
+         <p>Adaptabilité</p>
+          <div class="bar">
+           <div class="level" style="width:85%;"></div>
+         </div>
+       </div>
+       <div class="hard">
+        <h4>Hard Skills</h4>
+        <p>HTML</p>
+        <div class="bar">
+          <div class="level" style="width:90%;"></div>
+        </div>
+        <p>CSS</p>
+        <div class="bar">
+          <div class="level" style="width:80%;"></div>
+        </div>
+        <p>JavaScript</p>
+        <div class="bar">
+          <div class="level" style="width:65%;"></div>
+        </div>
+        <p>Vs Code</p>
+        <div class="bar">
+          <div class="level" style="width:95%;"></div>
+        </div>
+       </div>
+      </div> 
+    </section>
+    <section id="contact">
+      <h2>Vous avez <span class="accent">un projet en tête?</span></h2>
+      <h3>N'hésitez pas à me contacter</h3>
+      <form>
+         <div class="np">
+           <p><label for="prenom">Votre prénom</label><br>
+           <input type="text" id="prenom" placeholder="John"></p>
+           <p><label for="nom">Votre nom</label><br>
+           <input type="text" id="nom" placeholder="Ramokza"></p>
+         </div><br>
+        <p><label for="sujet">Votre sujet</label>
+        <input type="text" id="sujet" size="50" placeholder="Developpement d'un site vitrine"></p>
+        <p><textarea id="content" rows="12" size50 placeholder="Ecrivez votre message ici"></textarea></p>
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+    <footer>
+      <p>Designed by <span class="accent">Jeanette</span> with HTML CSS JS</p>
+      <p>Tous droits réservés - 2025</p>
+    </footer>
+  <script src="script.js"></script>
+  </body>
+</html>
